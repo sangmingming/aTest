@@ -83,8 +83,12 @@
     } else { 
         music.pause(); 
         $("#musicbtn").css("animation", "");
-    } 
+    }
 }); 
+
+Zepto(function($){
+  $("#musicbtn").css("animation", "change 2.3s linear infinite both running");
+})
 </script>
 
 </html>
